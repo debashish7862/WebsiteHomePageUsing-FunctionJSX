@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div id="root">
+
+   </div>
+<script type="text/babel">
+
+function Navbar(){
+    return <div>
+                <header>
+                    <div class="header">
+                    <h1>Logo</h1>
+                    </div>
+
+                    <div class="link">
+                      
+                    <a href="#">HOME</a>
+                    <a href="#">ABOUT</a>
+                    <a href="#">MENU</a>
+                    <a href="#">ORDER</a>
+                    <a href="#">CONTACT</a>
+                </div>
+
+                    
+
+                    </header>
+
+
+                    </div>
+
+}
+
+
+
+function Main(){
+    return <div>
+        <div class="img">
+        <img src="img.jpg" alt=""/>
+        <div class="homeName">Home</div>
+        <div class="footer">Made with  Geekster</div>
+       
+            </div>
+        
+            
+        
+        
+        
+        
+        </div>
+}
+
+
+function App(){
+    return  <div>
+        <Navbar/>
+        <Main/>
+
+
+
+        </div>
+
+}
+
+
+
+
+
+
+
+ReactDOM.render(App(),document.getElementById("root"))
+
+
+
+
+
+
+</script>
+    
+</body>
+</html>
